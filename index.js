@@ -1,5 +1,5 @@
 
-
+const brush = document.querySelector(".brush");
 const eraser = document.querySelector(".eraser");
 const pencil = document.querySelector(".pencil"); 
 const canvas = document.getElementById("drawingCanvas");
