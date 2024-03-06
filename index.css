@@ -1,0 +1,146 @@
+*, *::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+  overflow: hidden;
+  
+}
+
+.navbar{
+    height: 15%;
+    width: 80%;
+margin-left: 10%;
+margin-top: 1%;
+background-color:rgba(0, 0, 0, 0.675);
+
+/* opacity: 0.6; */
+/* border : 1px solid black; */
+border-radius: 25px;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.tools{
+    height:70%;
+    width: 10%;
+    background-color: white;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-template-rows: repeat(2, 1fr);
+    margin-top: 1%;
+}
+
+.colors{
+    height: 70%;
+    width: 33%;
+
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    padding-left: 2%;
+    line-height: 2%;
+}
+.tool{
+    transform: translate(38px,34px);
+display: none;
+}
+
+.toolkit:hover .tool1,.tool2,.tool3,.tool4{
+    /* display: block; */
+}
+
+
+
+.colors:hover .colors{
+    
+}
+
+.toolkit{
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.colorkit{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 65%;
+    height: 95%;
+
+}
+.kit2{
+    margin-top: 5px;
+}
+
+.color1{
+    background-color: aqua;
+}
+
+.color2{
+    background-color: blue;
+}
+
+.color3{
+    background-color: blueviolet;
+}
+.color4{
+    background-color: brown;
+}
+.color5{
+    background-color: cadetblue;
+}
+.color6{
+    background-color: chartreuse;
+}
+
+.color7{
+    background-color: coral;
+}
+
+.color8{
+    background-color: darkgoldenrod;
+}
+
+.color9{
+    background-color: black;
+}
+
+.color10{
+    background-color: darkred;
+}
+
+.color11{
+    background-color: deeppink;
+}
+
+.color12{
+    background-color: gold;
+}
+
+.color13{
+    background-color: green;
+}
+
+.color14{
+    background-color: white;
+}
+
+#drawingCanvas{
+    height: 590px;
+    width: 99vw;
+    /* margin-top: 10px;
+    margin-left: 6px; */
+    border: 2px dashed black;
+    cursor: crosshair;
+}
+
+
+
