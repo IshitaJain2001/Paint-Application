@@ -136,8 +136,8 @@ display: none;
 #drawingCanvas{
     height: 590px;
     width: 99vw;
-    /* margin-top: 10px;
-    margin-left: 6px; */
+    margin-top: 10px;
+    margin-left: 6px;
     border: 2px dashed black;
     cursor: crosshair;
 }
